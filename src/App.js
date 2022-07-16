@@ -1,5 +1,6 @@
 import './App.css';
 import { SectionSeparator } from './components/sectionSeparator';
+import { UseCallbackTutorial } from './examples/useCallback/useCallback';
 import { UseContextTutorial } from './examples/useContext/useContext';
 import { UseEffectTutorial } from './examples/useEffect/useEffect';
 import { UseImperativeHandleTutorial } from './examples/useImperativeHandle/useImperativeHandle';
@@ -33,6 +34,8 @@ function App() {
         <UseContextTutorial />
         <SectionSeparator />
         <UseMemoTutorial />
+        <SectionSeparator />
+        <UseCallbackTutorial />
       </header>
     </div>
   );
