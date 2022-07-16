@@ -4,6 +4,7 @@ import { UseContextTutorial } from './examples/useContext/useContext';
 import { UseEffectTutorial } from './examples/useEffect/useEffect';
 import { UseImperativeHandleTutorial } from './examples/useImperativeHandle/useImperativeHandle';
 import { UseLayoutEffectTutorial } from "./examples/useLayoutEffect/useLayoutEffect";
+import { UseMemoTutorial } from './examples/useMemo/useMemo';
 import { ReducerTutorial } from "./examples/useReducer/useReducer";
 import { UseRefTutorial } from "./examples/useRef/useRef";
 import {
@@ -30,6 +31,8 @@ function App() {
         <UseImperativeHandleTutorial />
         <SectionSeparator />
         <UseContextTutorial />
+        <SectionSeparator />
+        <UseMemoTutorial />
       </header>
     </div>
   );
