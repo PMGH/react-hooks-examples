@@ -1,7 +1,8 @@
 import './App.css';
+import { SectionSeparator } from './components/sectionSeparator';
+import { ReducerTutorial } from "./examples/useReducer/useReducer";
 import {
-  StateTutorialButton,
-  StateTutorialInput
+  StateTutorial
 } from "./examples/useState/useState";
 import logo from './logo.svg';
 
@@ -10,8 +11,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <StateTutorialButton />
-        <StateTutorialInput />
+        <SectionSeparator />
+        <StateTutorial />
+        <SectionSeparator />
+        <ReducerTutorial />
       </header>
     </div>
   );

@@ -33,3 +33,11 @@ export const StateTutorialInput = () => {
     </div>
   )
 }
+
+export const StateTutorial = () => (
+  <section>
+    <h1>useState</h1>
+    <StateTutorialButton />
+    <StateTutorialInput />
+  </section>
+);
