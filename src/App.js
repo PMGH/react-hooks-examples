@@ -2,6 +2,7 @@ import './App.css';
 import { SectionSeparator } from './components/sectionSeparator';
 import { UseEffectTutorial } from './examples/useEffect/useEffect';
 import { ReducerTutorial } from "./examples/useReducer/useReducer";
+import { UseRefTutorial } from "./examples/useRef/useRef";
 import {
   StateTutorial
 } from "./examples/useState/useState";
@@ -18,6 +19,8 @@ function App() {
         <ReducerTutorial />
         <SectionSeparator />
         <UseEffectTutorial />
+        <SectionSeparator />
+        <UseRefTutorial />
       </header>
     </div>
   );
