@@ -1,5 +1,8 @@
 import './App.css';
-import StateTutorial from './examples/useState/useState';
+import {
+  StateTutorialButton,
+  StateTutorialInput
+} from "./examples/useState/useState";
 import logo from './logo.svg';
 
 function App() {
@@ -7,7 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <StateTutorial />
+        <StateTutorialButton />
+        <StateTutorialInput />
       </header>
     </div>
   );

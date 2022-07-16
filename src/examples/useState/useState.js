@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const StateTutorial = () => {
+export const StateTutorialButton = () => {
   const [count, setCount] = useState(0);
   const increment = () => {
     setCount(count + 1);
@@ -18,4 +18,18 @@ const StateTutorial = () => {
   );
 }
 
-export default StateTutorial;
+export const StateTutorialInput = () => {
+  const [inputValue, setInputValue] = useState('Pedro');
+
+  const onChange = (event) => {
+    const newValue = event.target.value;
+    setInputValue(newValue);
+  }
+
+  return (
+    <div>
+      <input type="text" placeholder="Enter something..." onChange={onChange} style={{ marginRight: '10px' }} />
+      {inputValue}
+    </div>
+  )
+}
